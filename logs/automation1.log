@@ -1,0 +1,163 @@
+17-Jan-22 21:56:17 - INFO - ****************test_login started************************
+17-Jan-22 21:56:17 - INFO - 
+
+17-Jan-22 21:56:17 - INFO - ====== WebDriver manager ======
+17-Jan-22 21:56:17 - INFO - Current google-chrome version is 97.0.4692
+17-Jan-22 21:56:17 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+17-Jan-22 21:56:17 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+17-Jan-22 21:56:19 - INFO - ****************test_login passed************************
+17-Jan-22 21:56:19 - INFO - ****************test_login_page_title started************************
+17-Jan-22 21:56:19 - INFO - 
+
+17-Jan-22 21:56:19 - INFO - ====== WebDriver manager ======
+17-Jan-22 21:56:19 - INFO - Current google-chrome version is 97.0.4692
+17-Jan-22 21:56:19 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+17-Jan-22 21:56:20 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+17-Jan-22 21:56:21 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:30:24 - INFO - ****************test_login started************************
+02-Feb-22 21:30:24 - INFO - 
+
+02-Feb-22 21:30:24 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:30:24 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:30:24 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:30:25 - INFO - Trying to download new driver from https://chromedriver.storage.googleapis.com/97.0.4692.71/chromedriver_win32.zip
+02-Feb-22 21:30:25 - INFO - Driver has been saved in cache [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71]
+02-Feb-22 21:30:28 - INFO - ****************test_login passed************************
+02-Feb-22 21:30:28 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:30:28 - INFO - 
+
+02-Feb-22 21:30:28 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:30:28 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:30:28 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:30:28 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:30:30 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:41:02 - INFO - 
+
+02-Feb-22 21:41:02 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:41:03 - INFO - Current firefox version is 88.0
+02-Feb-22 21:41:03 - INFO - Get LATEST geckodriver version for 88.0 firefox
+02-Feb-22 21:41:03 - INFO - Getting latest mozilla release info for v0.30.0
+02-Feb-22 21:41:04 - INFO - Trying to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip
+02-Feb-22 21:41:05 - INFO - Driver has been saved in cache [C:\Users\amitp\.wdm\drivers\geckodriver\win64\v0.30.0]
+02-Feb-22 21:41:05 - INFO - 
+
+02-Feb-22 21:41:05 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:41:05 - INFO - Current firefox version is 88.0
+02-Feb-22 21:41:05 - INFO - Get LATEST geckodriver version for 88.0 firefox
+02-Feb-22 21:41:06 - INFO - Driver [C:\Users\amitp\.wdm\drivers\geckodriver\win64\v0.30.0\geckodriver.exe] found in cache
+02-Feb-22 21:41:40 - INFO - 
+
+02-Feb-22 21:41:40 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:41:40 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:41:40 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:41:40 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:41:41 - INFO - 
+
+02-Feb-22 21:41:41 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:41:41 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:41:41 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:41:41 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:42:30 - INFO - 
+
+02-Feb-22 21:42:30 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:42:30 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:42:30 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:42:31 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:42:32 - INFO - ****************test_login started************************
+02-Feb-22 21:42:33 - INFO - ****************test_login passed************************
+02-Feb-22 21:42:33 - INFO - 
+
+02-Feb-22 21:42:33 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:42:33 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:42:33 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:42:33 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:42:34 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:42:35 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:44:46 - INFO - 
+
+02-Feb-22 21:44:46 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:44:46 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:44:46 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:44:46 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:44:47 - INFO - ****************test_login started************************
+02-Feb-22 21:44:48 - INFO - ****************test_login passed************************
+02-Feb-22 21:44:48 - INFO - 
+
+02-Feb-22 21:44:48 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:44:48 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:44:48 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:44:48 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:44:49 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:44:50 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:44:57 - INFO - 
+
+02-Feb-22 21:44:57 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:44:57 - INFO - Current firefox version is 88.0
+02-Feb-22 21:44:57 - INFO - Get LATEST geckodriver version for 88.0 firefox
+02-Feb-22 21:44:58 - INFO - Driver [C:\Users\amitp\.wdm\drivers\geckodriver\win64\v0.30.0\geckodriver.exe] found in cache
+02-Feb-22 21:45:05 - INFO - ****************test_login started************************
+02-Feb-22 21:45:07 - INFO - ****************test_login passed************************
+02-Feb-22 21:45:07 - INFO - 
+
+02-Feb-22 21:45:07 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:45:07 - INFO - Current firefox version is 88.0
+02-Feb-22 21:45:07 - INFO - Get LATEST geckodriver version for 88.0 firefox
+02-Feb-22 21:45:07 - INFO - Driver [C:\Users\amitp\.wdm\drivers\geckodriver\win64\v0.30.0\geckodriver.exe] found in cache
+02-Feb-22 21:45:13 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:45:14 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:45:49 - INFO - ****************test_login started************************
+02-Feb-22 21:45:51 - INFO - ****************test_login passed************************
+02-Feb-22 21:45:54 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:45:55 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:46:48 - INFO - 
+
+02-Feb-22 21:46:48 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:46:48 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:46:48 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:46:48 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:46:49 - INFO - ****************test_login started************************
+02-Feb-22 21:46:50 - INFO - ****************test_login passed************************
+02-Feb-22 21:46:50 - INFO - 
+
+02-Feb-22 21:46:50 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:46:50 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:46:50 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:46:51 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:46:52 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:46:52 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:49:41 - INFO - 
+
+02-Feb-22 21:49:41 - INFO - 
+
+02-Feb-22 21:49:41 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:49:41 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:49:41 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:49:41 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:49:41 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:49:41 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:49:42 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:49:42 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:49:43 - INFO - ****************test_login started************************
+02-Feb-22 21:49:43 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:49:44 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:49:44 - INFO - ****************test_login passed************************
+02-Feb-22 21:50:55 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:50:55 - INFO - ****************test_login started************************
+02-Feb-22 21:50:56 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:50:57 - INFO - ****************test_login passed************************
+02-Feb-22 21:54:13 - INFO - 
+
+02-Feb-22 21:54:13 - INFO - 
+
+02-Feb-22 21:54:13 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:54:13 - INFO - ====== WebDriver manager ======
+02-Feb-22 21:54:13 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:54:13 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:54:13 - INFO - Current google-chrome version is 97.0.4692
+02-Feb-22 21:54:13 - INFO - Get LATEST chromedriver version for 97.0.4692 google-chrome
+02-Feb-22 21:54:13 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:54:13 - INFO - Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+02-Feb-22 21:54:14 - INFO - ****************test_login_page_title started************************
+02-Feb-22 21:54:15 - INFO - ****************test_login started************************
+02-Feb-22 21:54:15 - INFO - ****************test_login_page_title passed************************
+02-Feb-22 21:54:16 - INFO - ****************test_login passed************************

@@ -1,0 +1,170 @@
+SHADOW DOM issue in Angular
+
+Hybrid Framework - 
+-Python , Selenium ,PyTest
+- Design pattern - Page Object Model
+- HTML Report
+
+URL - https://www.saucedemo.com/inventory.html 
+
+Framework - it is an organized way of maintaining automation files
+ All the files/compoments will communicate with each othe to perform certain task
+- Framework is used for maitainatinbilty, re-usability etc
+
+Types-
+1) Built-in FW/pkgs- pytest, robotframework, unittest etc
+2) Customized/User defined FWs -
+     Datadriven, KW driven , Hybrid etc
+
+Phases in developing a FW-
+i) Analyze application , technology & Skill set of team , choose TC
+ii) Design and implment FW
+iii) Execution
+iv) Maintain (VCS- GIT/SVN/GitLab) 
+
+Steps -
+1) Create New Project and install required packages
+   - Selenium libraries
+   - pytest
+   - pytest-html for report
+   - pytest-xdist- for parallel testing
+   - openpyxl - Excel handling
+   - allure-pytest - to generate allure report
+
+2) Create folders and packages -
+  - pageobjects
+  - testcases
+  - utilities
+  - Testdata (Folder)
+  - config( folder)
+  - logs ( folder)
+  -screenshot( folder)
+  - reports( folder)
+  - testrunner.bat
+
+3) Automate first test i.e. Login test 
+   i) Create LoginPage class under pageobject
+   ii) Create LoginTest i.e test_login.py file under testcase
+   iii) Create LoginConftest.py class under testcase
+
+4) Capture screenshots for failure tests - 
+    E.g. -  current_url = self.driver.current_url
+        if page_title == "Swag Labs1" and current_url == "https://www.saucedemo.com/inventory.html":
+            assert True
+            self.driver.close()
+        else:
+            self.driver.save_screenshot("..\\screenshot\\" + "test_login.png")
+            self.driver.close()
+            assert False
+   
+5) Add config.ini for all common data 
+   create read_property function using configparser
+  E.g. - import configparser
+
+	config = configparser.RawConfigParser()
+	config.read("..\\config\\config.ini")
+
+6) Generate logs - 
+   import logging
+
+
+class Log_Gen:
+    @staticmethod
+    def generate_log():
+        logging.basicConfig(filename='..\\logs\\automation.log',
+                           level=logging.INFO,force=True)
+        # logger = logging.getLogger()
+        # logger.setLevel(logging.INFO)
+        return logging.getLogger()
+
+7) Create function to read browserType
+   - add configtest.py with required fixtures which will accept command line argument (browser name)
+@pytest.fixture()
+def setup(browser):
+    if browser == "chrome":
+        s = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=s)
+    elif browser == "firefox":
+        s = Service(GeckoDriverManager().install())
+        driver = webdriver.Firefox(service=s)
+    elif browser == "ie":
+        driver = webdriver.Ie(executable_path="C:\\wd-drivers\\IEDriverServer.exe")
+    elif browser == "edge":
+        driver = webdriver.Edge(executable_path="C:\\wd-drivers\\msedgedriver.exe")
+    else:
+        s = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=s)
+    return driver
+
+
+def pytest_addoption(parser):  # This will fetch value from command line
+    parser.addoption("--browser")
+
+
+@pytest.fixture()
+def browser(request):  # This will return browser value to setup function
+    return request.config.getoption("--browser")
+
+   - pass browser type as argument in CL
+   - pytest -s -v test_login.py  --browser chrome
+   - pytest -s -v test_login.py  --browser firefox
+
+8) Run test in parallel using pytest-xdist package 
+   - pip install pytest-xdist
+   - pytest -s -v -n=2 test_login.py  --browser chrome
+
+9)Generate html report-
+  - pip install pytest-html
+  - Update confest.py with pytest hooks
+  -  pytest -s -v -n=2 --html=reports\test_report.html test_login.py  --browser chrome
+full command-
+ C:\Users\amitp\PycharmProjects\Selenium_Python_Framework_Jan22\testcases>pytest -s -v -n=2 --html=..\reports\saucedemo_report.html test_login_page.p
+y  --browser chrome
+
+#################Pytest HTML Report###########################
+# Hook for adding environment info in html report
+def pytest_configure(config):
+    config._metadata['Project Name'] = 'saucedemo'
+    config._metadata['Mpdule Name'] = 'Homepage'
+    config._metadata['QA Name'] = 'Amit P.'
+
+
+# Hook to delete/modify environment info to HTML report
+@pytest.mark.optionalhook
+def pytest_metadata(metadata):
+    metadata.pop("JAVA_HOME", None)
+    metadata.pop("Plugins", None)#
+
+
+# GIT
+i) git init (create empty local git repo)
+ii) Login to your github account and create a remote repo
+iii) Connect your local repo with remote repo using below command -
+     >git remote add origin https://github.com/amitpradhan/python_framework_qa.git 
+
+iv) one time config -
+   > git config --global user.name "Amit"
+   > git config --global user.email "amitpradhan.2011@gmail.com"
+   >git config --list (info about current repo)
+
+v) git add -a  (add all files into staging area which is a buffer area between local repo and git repo
+
+vi) git commit -m "First commit" ( code will be moved to local git repo)
+vii) git push -u origin main (move code to github repo)
+viii) git pull ( to get the repo from git to local)
+
+JENKINS-
+
+> java -jar jenkins.war --enable-future-java
+
+
+	
+
+
+
+
+  
+
+
+
+

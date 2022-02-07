@@ -1,0 +1,32 @@
+INFO:root:****************test_login started************************
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 97.0.4692
+INFO:WDM:Get LATEST chromedriver version for 97.0.4692 google-chrome
+INFO:WDM:Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+INFO:root:****************test_login passed************************
+INFO:root:****************test_login_page_title started************************
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 97.0.4692
+INFO:WDM:Get LATEST chromedriver version for 97.0.4692 google-chrome
+INFO:WDM:Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+INFO:root:****************test_login_page_title passed************************
+INFO:root:****************test_login started************************
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 97.0.4692
+INFO:WDM:Get LATEST chromedriver version for 97.0.4692 google-chrome
+INFO:WDM:Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+INFO:root:****************test_login passed************************
+INFO:root:****************test_login_page_title started************************
+INFO:WDM:
+
+INFO:WDM:====== WebDriver manager ======
+INFO:WDM:Current google-chrome version is 97.0.4692
+INFO:WDM:Get LATEST chromedriver version for 97.0.4692 google-chrome
+INFO:WDM:Driver [C:\Users\amitp\.wdm\drivers\chromedriver\win32\97.0.4692.71\chromedriver.exe] found in cache
+INFO:root:****************test_login_page_title passed************************
