@@ -150,7 +150,7 @@ iv) one time config -
 v) git add -a  (add all files into staging area which is a buffer area between local repo and git repo
 
 vi) git commit -m "First commit" ( code will be moved to local git repo)
-vii) git push -u origin main (move code to github repo)
+vii) Framework_points.txt (move code to github repo)
 viii) git pull ( to get the repo from git to local)
 
 JENKINS-
